@@ -1,15 +1,34 @@
 .qwer{
-    border: 1px solid silver
+    border: 1px solid silver;
+    display: flex;
+   
 }
-
+span.welcome{
+    color: blue;
+    text-decoration: underline;
+}
 .qwer1{
-    
+    text-align: center;
     border-top:1px solid silver;
     border-bottom :1px solid silver;
-   
+    
 }
 
 .migi{
     text-align: right;
 
 }
+
+.qw{
+    border:1px solid blue;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    background-color: blue;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.col1{
+    color: green;
+    }
