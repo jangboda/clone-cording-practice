@@ -7,13 +7,18 @@ span.welcome{
     color: blue;
     text-decoration: underline;
 }
+
 .qwer1{
     text-align: center;
     border-top:1px solid silver;
     border-bottom :1px solid silver;
     
 }
-
+.table121{
+    align:right;
+    
+   }
+   
 .migi{
     text-align: right;
 
@@ -25,10 +30,14 @@ span.welcome{
     width: 1000px;
     display: flex;
     background-color: blue;
-    margin-left: 300px;
+    margin-left: 1150px;
     margin-bottom: 30px;
 }
 
 .col1{
     color: green;
     }
+
+.aa11{
+   
+}
