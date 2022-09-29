@@ -1,7 +1,7 @@
 .qwer{
     border: 1px solid silver;
     display: flex;
-   
+    margin-top: 20px;
 }
 span.welcome{
     color: blue;
@@ -15,13 +15,13 @@ span.welcome{
     
 }
 .table121{
-    align:right;
-    
+   text-align: center;
    }
    
 .migi{
     text-align: right;
-
+    margin-top: 66px;
+   
 }
 
 .qw{
@@ -30,14 +30,23 @@ span.welcome{
     width: 1000px;
     display: flex;
     background-color: blue;
-    margin-left: 1150px;
-    margin-bottom: 30px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
 }
 
 .col1{
     color: green;
     }
 
-.aa11{
-   
+.rw11{
+    border: 1px;
+    width: 100px;
 }
+
+.aa11{
+    width: auto; 
+    height:auto; 
+  }
+  
+    
