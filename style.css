@@ -2,6 +2,7 @@
     border: 1px solid silver;
     display: flex;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 span.welcome{
     color: blue;
@@ -10,17 +11,24 @@ span.welcome{
 
 .qwer1{
     text-align: center;
-    border-top:1px solid silver;
-    border-bottom :1px solid silver;
+    border-top:3px solid silver;
+    border-bottom :3px solid silver;
     
 }
 .table121{
    text-align: center;
+   align-content: right;
+   margin:auto;
+   border-collapse : collapse;
+
    }
-   
+.table121,td{
+    text-align: center;
+
+}  
 .migi{
     text-align: right;
-    margin-top: 66px;
+    margin-top: 34px;
    
 }
 
@@ -37,17 +45,54 @@ span.welcome{
 
 .col1{
     color: green;
+    
     }
 
 .rw11{
-    table-layout: auto;
-    border: 1px;
-    width: 100px;
+    
 }
 
 .aa11{
-    width: auto; 
-    height:auto; 
+    border: 1px
   }
   
+.table0{
+    width: 350px;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    float: right;
     
+} 
+.table1{ 
+   display: flex;
+   justify-content: center;
+   height: auto;
+   width: auto;
+   border:1px;
+   margin-top: 50px;
+}
+.table0,table121,td{
+    text-align:center;
+}
+
+.table2{
+    border:1px solid black;
+    height:auto;
+    width:auto;
+    text-align:left;
+
+}
+.title0{
+    display: flex;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: -41px;
+}
+.title0,td{
+    text-align:left;
+}
+
+body{
+    margin : 100px
+}
+
