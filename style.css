@@ -19,8 +19,7 @@ span.welcome{
    text-align: center;
    align-content: right;
    margin:auto;
-   border-collapse : collapse;
-
+   padding-left: 50px;
    }
 .table121,td{
     text-align: center;
@@ -28,7 +27,8 @@ span.welcome{
 }  
 .migi{
     text-align: right;
-    margin-top: 34px;
+    margin-top: 8px;
+    
    
 }
 
@@ -56,31 +56,42 @@ span.welcome{
     border: 1px
   }
   
-.table0{
-    width: 350px;
-    border: 1px solid #444444;
-    border-collapse: collapse;
-    float: right;
-    
-} 
-.table1{ 
+.table01{
    display: flex;
+   justify-content: right;
+   border-collapse: collapse; 
+   text-align: center;
+   
+} 
+.table01 td{
+ border: 1px solid black;
+ border-collapse: collapse;  
+ 
+}
+.table1{ 
+   display:flex;
    justify-content: center;
    height: auto;
    width: auto;
-   border:1px;
    margin-top: 50px;
+   border-collapse: collapse; 
+   border-spacing: 0;
+   
 }
-.table0,table121,td{
-    text-align:center;
+.table1 td{
+ text-align: left;
+ border-top:2px solid green;
+ border-right: 2px solid green;
+ border-left:  2px solid green;
+ border-bottom: 2px solid green;
+ border-collapse: collapse; 
+ border-spacing: 0;
 }
-
 .table2{
-    border:1px solid black;
+    
     height:auto;
     width:auto;
     text-align:left;
-
 }
 .title0{
     display: flex;
@@ -88,11 +99,12 @@ span.welcome{
     font-size: 200%;
     margin-bottom: -41px;
 }
-.title0,td{
+.title0{
     text-align:left;
 }
-
 body{
     margin : 100px
 }
-
+.photo1{
+    object-fit: contain;  
+}
