@@ -1,15 +1,147 @@
 .qwer{
-    border: 1px solid silver
+    border: 1px solid silver;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+span.welcome{
+    color: blue;
+    text-decoration: none;
 }
 
 .qwer1{
+    text-align: center;
+    border-top:3px solid silver;
+    border-bottom :3px solid silver;
+    font-size:1.3888888889em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.table121{
+   text-align: center;
+   align-content: right;
+   margin:auto;
+   padding-left: 50px;
+   }
+.table121,td{
+    text-align: center;
+
+}  
+.migi{
+    text-align: right;
+    margin-top: 8px;
     
-    border-top:1px solid silver;
-    border-bottom :1px solid silver;
    
 }
 
-.migi{
-    text-align: right;
+.qw{
+    border:1px solid blue;
+    height: 80px;
+    width: 800px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+    
+}
 
+.col1{
+    color: green;
+    
+    }
+
+.rw11{
+    
+}
+
+.aa11{
+    border: 1px
+  }
+  
+.table01{
+   display: flex;
+   justify-content: right;
+   border-collapse: collapse; 
+   text-align: center;
+   background-color: #fff;
+   
+   
+} 
+.table01 td{
+ border: 1px solid rgb(236, 233, 233);
+ border-collapse: collapse;  
+ width: 69px;
+ padding: 10px 5px;
+
+}
+.table1{ 
+    background-color: #ffffff;
+    border: 2px solid #00a495;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table1 td{
+    border: 1px solid #ddd;
+}
+.table1 td strong{
+    font-size: 20px;
+}
+.table2{
+    
+    height:auto;
+    width:auto;
+    text-align:left;
+}
+.title0{
+    display: flex;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: -41px;
+}
+.title0{
+    text-align:left;
+    font-size: 50px;
+    font-weight:bold;
+    margin-top: -50px;
+}
+body{
+    margin : 100px
+}
+
+.hosi{
+    color: red;
+}
+.photo1{
+    object-fit: contain;
+    min-height: 10px;
+    min-width: 10px;
+  
+}
+.title1{
+    font-weight: bold;
+}
+.tabletext{
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+}
+.picture td img{
+    width: 100px;
+    height: 100px;
+    width:100%;
+    height: 100%; 
+    border:2px solid #00a495;
+    background-color: #ffffff;
+}
+.imgtag{
+   width: 50px;
+   height: 50px; 
+}
+.linkdesu{
+   text-decoration: none; 
+}
+a:hover{
+    text-decoration: underline blue;
 }
